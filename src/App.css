@@ -1,0 +1,47 @@
+.App{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+
+  min-width: 100vw;
+  min-height: 100vh;
+
+  background-color: rgb(120, 120, 120);
+}
+
+*{
+  transition: all .3s ease-out;
+}
+
+.card{
+  display: grid;
+  place-items: center;
+  align-items: center;
+  text-align: center;
+
+  min-width: 260px;
+  width: 50vw;
+
+  background-color: rgb(208, 208, 208);
+
+  border-radius: 7px;
+  padding: 3vh 3vw;
+  box-shadow: 7px 7px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.card>p{
+  word-break: break-all;
+}
+
+
+button{
+  border: 1px solid black;
+  border-radius: 4px;
+
+  padding: 0.5em 2em;
+}
+
+button:hover{
+  box-shadow: 4px 4px 1px 1px rgba(0, 0, 0, 0.519);
+}
